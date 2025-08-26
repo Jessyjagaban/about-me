@@ -18,7 +18,29 @@
     <div>
     <nav>
         <ul>
-            <li><button onclick="location.href='index.html'">Home page</button></li>
+            <li><button onclick="location.href='index.html'">
+                <style>
+                    .body{
+                        height:3000px;/*example to show scrolling*/\
+                        font-family:sans-serif;
+                    }
+                    .button{
+                        position:fixed;
+                        top:100px;
+                        left:20px;
+                        padding:10px 15px;
+                        background-color:#blue;
+                        color:white;
+                        text-decoration:none;
+                        border=radius:5px;
+                        font-weight:semi-bold;
+                        z-index:1000;
+                        transition:background-color 0.3s;
+                    }
+                    .button:hover{
+                        background-color:#white;
+                    }
+                </style>Home page</button></li>
             <li><button onclick="location.href='my-design-journey.html'">My design Journey</button></li>
         </ul>
     </nav>
